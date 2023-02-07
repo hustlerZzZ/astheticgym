@@ -29,8 +29,7 @@ document.addEventListener('keydown', function (e) {
     }
 });
 
-function gotowhatsapp(e) {
-    e.preventDefault();
+function gotowhatsapp() {
 
     let name = document.getElementById("name").value;
     let phone = document.getElementById("mobile").value;
@@ -44,9 +43,8 @@ function gotowhatsapp(e) {
     window.open(url, '_blank').focus();
 }
 
-function gotowhatsapp_1(e) {
-    e.preventDefault();
-
+function gotowhatsapp_1() {
+   
     let name_1 = document.getElementById("name-1").value;
     let phone_1 = document.getElementById("mobile-1").value;
     let message_1 = document.getElementById("message-1").value;
